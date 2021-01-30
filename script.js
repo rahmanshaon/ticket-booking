@@ -1,3 +1,5 @@
+// First class ticket price
+
 function firstTicketPrice(increase){
     const firstClassInput = document.getElementById("firstTicketCount");
     const firstInputNumber = parseInt(firstClassInput.value);
@@ -14,7 +16,9 @@ function firstTicketPrice(increase){
     calculateSubTotal()
 }
 
-function EconomyTicketPrice(increase){
+// Economy class ticket price
+
+function economyTicketPrice(increase){
     const economyClassInput = document.getElementById("economyTicketCount");
     const economyInputInt = parseInt(economyClassInput.value);
     let economyNewInput = economyInputInt;
@@ -30,6 +34,7 @@ function EconomyTicketPrice(increase){
     calculateSubTotal()
 }
 
+// Total price calculation
 
 function calculateSubTotal(){
     const firstClassInput = document.getElementById("firstTicketCount");
